@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Crud</title>
+</head>
+<body>
+    <div class="crud">
+        <!-- start heading -->
+        <div class="head">
+            <h2>CRUDS</h2>
+            <p>Employees Data System </p>
+        </div>
+        <!-- end heading -->
+        <!-- start inputs -->
+        <div class="inputs">
+            <div class="input-details">
+                <h5>First Name</h5>
+                <input type="text" placeholder="First-name" id="first-name">
+            </div>
+            <div class="input-details">
+                <h5>Last Name</h5>
+                <input type="text" placeholder="last-name" id="last-name">
+            </div>
+            <div class="input-details">
+                <h5>Job Title</h5>
+                <input type="text" placeholder="Job-title" id="job-title">
+            </div>
+            <div class="input-details">
+                <h5>Email</h5>
+                <input type="email" placeholder="E-mail" id="email">
+            </div>
+            <div class="input-details">
+                <h5>Salary</h5>
+                <input type="number" placeholder="Salary" id="salary">
+                
+            </div>
+            <div class="input-details">
+                <h5>Company Branch</h5>
+                <input type="text" placeholder="Company Branch" id="company-branch">
+            </div>
+            <div class="input-details">
+                <h5>Phone Number</h5>
+                <input type="text" placeholder="Phone Number" id="phone-number">
+            </div>
+            <div class="input-details">
+                <h5>Adress</h5>
+                <input type="text" placeholder="Adress" id="adress">
+            </div>
+        </div>
+        <!-- end inputs -->
+        <!-- start button -->
+        <button id="add">Add</button>
+        <!-- end button -->
+        <!-- start table -->
+        <div>
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Job Title</th>
+                    <th>E-mail</th>
+                    <th>sallery</th>
+                    <th>Phone Number</th>
+                    <th>Company Branch</th>
+                    <th>Adders</th>
+                    <th>Update</th>
+                    <th>Delate</th>
+                </tr>
+                <tbody id="tobody">
+
+                </tbody>
+            </table>
+        </div>
+        <!-- end table -->
+
+
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
